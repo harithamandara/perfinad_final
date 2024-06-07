@@ -1,5 +1,53 @@
 <x-shop-layout>
+    <style>
+        .blog-posts {
+            /*padding: 20px 0;*/
+        }
 
+        .sidebar-item {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .sidebar-heading h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .content {
+            margin-top: 15px;
+        }
+
+        .contact-form input[type="number"],
+        .contact-form button {
+            padding: 10px;
+            /*border: none;*/
+            background-color: #adadad;
+            color: #111111;
+            cursor: pointer;
+            border-radius: 5px;
+
+        }
+
+        .contact-form input[type="number"] {
+            width: 100px;
+            margin-right: 10px;
+        }
+
+        .contact-form button:hover {
+            background-color: #0056b3;
+        }
+
+        .alert {
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #d4edda;
+            color: #155724;
+        }
+        </style>
 
   <section class="blog-posts grid-system">
     <div class="container">
@@ -10,55 +58,14 @@
 
           </div>
 
-{{--          <br>--}}
 
-{{--          <div class="row">--}}
-{{--            <div class="col-sm-4 col-6">--}}
-{{--              <div>--}}
-{{--                <img src="assets/images/product-1-720x480.jpg" alt="" class="img-fluid">--}}
-{{--              </div>--}}
-{{--              <br>--}}
-{{--            </div>--}}
-{{--            <div class="col-sm-4 col-6">--}}
-{{--              <div>--}}
-{{--                <img src="assets/images/product-2-720x480.jpg" alt="" class="img-fluid">--}}
-{{--              </div>--}}
-{{--              <br>--}}
-{{--            </div>--}}
-{{--            <div class="col-sm-4 col-6">--}}
-{{--              <div>--}}
-{{--                <img src="assets/images/product-3-720x480.jpg" alt="" class="img-fluid">--}}
-{{--              </div>--}}
-{{--              <br>--}}
-{{--            </div>--}}
-
-{{--            <div class="col-sm-4 col-6">--}}
-{{--              <div>--}}
-{{--                <img src="assets/images/product-4-720x480.jpg" alt="" class="img-fluid">--}}
-{{--              </div>--}}
-{{--              <br>--}}
-{{--            </div>--}}
-{{--            <div class="col-sm-4 col-6">--}}
-{{--              <div>--}}
-{{--                <img src="assets/images/product-5-720x480.jpg" alt="" class="img-fluid">--}}
-{{--              </div>--}}
-{{--              <br>--}}
-{{--            </div>--}}
-{{--            <div class="col-sm-4 col-6">--}}
-{{--              <div>--}}
-{{--                <img src="assets/images/product-6-720x480.jpg" alt="" class="img-fluid">--}}
-{{--              </div>--}}
-{{--              <br>--}}
-{{--            </div>--}}
-{{--          </div>--}}
-
-{{--          <br>--}}
         </div>
 
         <div class="col-md-5">
           <div class="sidebar-item recent-posts">
             <div class="sidebar-heading">
               <h2>Info</h2>
+                <h2>{{$products->name}}</h2>
             </div>
 <h3>{{$products->price}}</h3>
             <div class="content">

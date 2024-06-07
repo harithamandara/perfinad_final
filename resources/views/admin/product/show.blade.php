@@ -3,6 +3,10 @@
 
 
 <x-admin-layout>
+    <style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    </style>
   <div class="container">
 
   <a href="{{ url('create') }}" class="btn btn-primary">Add Product</a>
@@ -33,11 +37,15 @@
         <td>Rs. {{ $item->price }}</td>
         <td>Rs. {{ $item->price }}</td>
         <td>
-          <a href="{{ url('edit', $item->id) }}" class="btn btn-primary">Edit</a>
+            <a href="{{ url('edit', $item->id) }}" class="btn btn-primary">
+                <i class="fa fa-edit"></i> Edit
+            </a>
           <form action="{{ url('destroy', $item->id) }}" method="POST">
             @csrf
             @method('DELETE')
-            <button type="submit" class="btn btn-danger">Delete</button>
+              <button type="submit" class="btn btn-danger">
+                  <i class="fa fa-trash"></i> Delete
+              </button>
           </form>
       </tr>
 

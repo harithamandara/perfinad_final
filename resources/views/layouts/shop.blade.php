@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="{{ asset('sh/assets/css/fontawesome.css') }}">
     <link rel="stylesheet" href="{{ asset('sh/assets/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('sh/assets/css/owl.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 
 <body>
@@ -42,7 +44,8 @@
                         </a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="/cart">Cart
+                        <a class="nav-link" href="/cart">
+                            <i class="fas fa-shopping-cart"></i> Cart
                         </a>
                     </li>
 
