@@ -229,7 +229,7 @@
                       <span class="category">Category:<br><strong>Digital Crypto</strong></span> -->
                       <h4>"Perfinad made my dream home a reality by turning my debt into savings!" - Sarah</h4>
                       <div class="main-button">
-                        <a href="explore.html">Contact Her</a>
+                        <a href=" https://wa.me/+94765660046">Contact Her</a>
                       </div>
                     </div>
                   </div>
@@ -241,7 +241,7 @@
                       <span class="category">Category:<br><strong>Visual Art</strong></span> -->
                       <h4>"Perfinad's guidance allowed me to retire early and live the life I dreamt of." - Perera</h4>
                       <div class="main-button">
-                        <a href="explore.html">Contact Him</a>
+                        <a href="https://wa.me/+94765660046">Contact Him</a>
                       </div>
                     </div>
                   </div>
@@ -253,7 +253,7 @@
                       <span class="category">Category:<br><strong>Music Art</strong></span> -->
                       <h4>"Perfinad's plans brought financial freedom and dream getaways!" - Emil</h4>
                       <div class="main-button">
-                      <a href="explore.html">Contact Him</a>
+                      <a href=" https://wa.me/+94716158410">Contact Him</a>
                       </div>
                     </div>
                   </div>
@@ -265,7 +265,7 @@
                       <span class="category">Category:<br><strong>Blockchain</strong></span> -->
                       <h4>"Perfinad transformed my modest investments into a path to financial freedom." - Janaka</h4>
                       <div class="main-button">
-                      <a href="explore.html">Contact Him</a>
+                      <a href="https://wa.me/+94767849492">Contact Him</a>
                       </div>
                     </div>
                   </div>

@@ -56,7 +56,7 @@
 {{--                    <i class="fas fa-laugh-wink"></i>--}}
                 </div>
                 <div class="sidebar-brand-text mx-3">
-                    <img src="assets\images\logo4.png" alt="Logo" class="logo"> Perfinad
+                    <img src="assets\images\logo5.png" alt="Logo" class="logo"> Perfinad
                 </div>
             </a>
 
