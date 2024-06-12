@@ -74,23 +74,42 @@
 
 {{$slot}}
 
-<footer>
+
+<!-- footer start -->
+
+<footer class="footer">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <ul class="social-icons">
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">Behance</a></li>
-                    <li><a href="#">Linkedin</a></li>
+            <div class="footer-col">
+                <a href="index.html" class="logo">
+                    <img src="assets/images/logo6.png" alt="" style="width: 220px; height: 80px;">
+                </a>
+            </div>
+            <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">our services</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">affiliate program</a></li>
                 </ul>
             </div>
-            <div class="col-lg-12">
-                <div class="copyright-text">
-                    <p>
-                        Copyright © 2020 Company Name
-{{--                        | Template by: <a href="https://www.phpjabbers.com/">PHPJabbers.com</a>--}}
-                    </p>
+            <div class="footer-col">
+                <h4>online shop</h4>
+                <ul>
+                    <li><a href="#">watch</a></li>
+                    <li><a href="#">Books</a></li>
+                    <li><a href="#">DVDs</a></li>
+                    <li><a href="#">Recordings</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
         </div>
@@ -130,6 +149,59 @@
         });
     });
 </script>
+<style>
+    .footer {
+        background-color: #333;
+        color: #fff;
+        padding: 50px 0;
+    }
 
+    .footer .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-col {
+        width: 25%;
+        padding: 0 15px;
+    }
+
+    .footer h4 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .footer ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer ul li {
+        margin-bottom: 10px;
+    }
+
+    .footer ul li a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .footer .social-links a {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background-color: #fff;
+        color: #333;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    .footer .social-links a:hover {
+        background-color: #007bff;
+        color: #fff;
+    }
+</style>
 </body>
 </html>

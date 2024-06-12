@@ -40,9 +40,14 @@ Route::middleware([
     config('jetstream.auth_session'),
     'verified',
 ])->group(function () {
-    Route::get('/dashboard', function () {
+//    Route::get('/dashboard', function () {
+//        return route('homec');
+//    })->name('dashboard');
+    Route::get('/dashboard', [UserController::class, 'indexnew'])->name('dashboard');
+
+    Route::get('/dd', function () {
         return view('dashboard');
-    })->name('dashboard');
+    })->name('dd');
     Route::resource(
         'product-category',
         \App\Http\Controllers\ProductCategoryController::class
@@ -55,6 +60,9 @@ Route::middleware([
 
 
 });
+
+
+
 
 route::resource('product-category', \App\Http\Controllers\ProductCategoryController::class);
 

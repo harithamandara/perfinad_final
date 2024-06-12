@@ -21,8 +21,8 @@
       <thead>
         <tr>
           <th>Product Name</th>
-          <th>Product Price</th>
-          <th>Price</th>
+          <th>image</th>
+
           <th>Total</th>
           <th>Action</th>
 
@@ -34,7 +34,8 @@
       <tr>
         <td>{{ $item->name }}</td>
         <td>{{ $item->quantity }}</td>
-        <td>Rs. {{ $item->price }}</td>
+          <td>{{ $item->image }}</td>
+        <td> {{ $item->descreption }}</td>
         <td>Rs. {{ $item->price }}</td>
         <td>
             <a href="{{ url('edit', $item->id) }}" class="btn btn-primary">

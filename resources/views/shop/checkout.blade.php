@@ -1,4 +1,94 @@
 <x-shop-layout>
+    <style>
+        /* Custom styles for the checkout page */
+        .section-bg {
+            background-color: #f8f9fa;
+            /*padding: 100px 0;*/
+        }
+
+        .cta-content h2 {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .cta-content p {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .contact-form label {
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .contact-form input,
+        .contact-form select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        .contact-form button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form button:hover {
+            background-color: #0056b3;
+        }
+
+        .main-button {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .main-button a,
+        .main-button button {
+            padding: 10px 20px;
+            margin-right: 10px;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .main-button a:hover,
+        .main-button button:hover {
+            background-color: #0056b3;
+        }
+
+        .list-group {
+            margin-bottom: 30px;
+        }
+
+        .list-group-item {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .list-group-item h4 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .list-group-item strong {
+            color: #007bff;
+        }
+    </style>
 
     <section class="section section-bg" id="call-to-action"
              style="background-image: url(assets/images/banner-image-1-1920x500.jpg)">
@@ -8,8 +98,8 @@
                     <div class="cta-content">
                         <br>
                         <br>
-                        <h2>Easy <em>Checkout</em></h2>
-                        <p>Ut consectetur, metus sit amet aliquet placerat, enim est ultricies ligula</p>
+                        <h2> <em>Checkout</em></h2>
+{{--                        <p>Ut consectetur, metus sit amet aliquet placerat, enim est ultricies ligula</p>--}}
                     </div>
                 </div>
             </div>

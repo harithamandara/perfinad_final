@@ -827,7 +827,7 @@ Categories & Collections Style
 }
 
 .categories-collections:after {
-  background-image: url(/assets/images/category-collection-dec.png);
+  /*background-image: url(/assets/images/category-collection-dec.png);*/
   width: 300px;
   height: 282px;
   position: absolute;
@@ -1364,13 +1364,14 @@ Page Heading Style
 }
 
 .page-heading {
-  background-image: url(../images/heading-bg.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  padding-top: 250px;
-  text-align: center;
-  background-color: #2a2a2a;
+    position: relative;
+    background: linear-gradient(135deg, rgba(0, 0, 255, 0.5), rgba(128, 0, 128, 0.5)), url(../images/ban2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 250px;
+    text-align: center;
+    background-color: #2a2a2a;
 }
 
 .page-heading h6 {
@@ -1733,7 +1734,7 @@ Details Page Style
 }
 
 .item-details-page:after {
-  background-image: url(/assets/images/category-collection-dec.png);
+  /*background-image: url(/assets/images/category-collection-dec.png);*/
   width: 300px;
   height: 282px;
   position: absolute;

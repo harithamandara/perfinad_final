@@ -10,6 +10,10 @@ use App\Models\Product;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Database\Eloquent\Model; // Move this line up to the correct position
 use Illuminate\Support\Facades\Hash; // Move this line up to the correct position
+use Illuminate\Support\Facades\Validator; // Move this line up to the correct position
+use Illuminate\Support\Facades\DB; // Move this line up to the correct position
+use App\Enums\Role; // Move this line up to the correct position
+
 
 class UserController extends Controller
 {
@@ -19,6 +23,17 @@ class UserController extends Controller
         return view('admin.user.all', compact('users'));
 
 
+    }
+    public function indexnew()
+    {
+        $user = Auth::user();
+        $role = Auth::user()->role->value;
+        $users = User::all();
+        if ($role  == 1) {
+            return view('admin.user.all', compact('users'));
+        } else {
+            return view('home');
+        }
     }
 
     public function viewOrder($id)

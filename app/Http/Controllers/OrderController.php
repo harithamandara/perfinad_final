@@ -104,4 +104,6 @@ class OrderController extends Controller
         // Redirect to Stripe payment page
         return redirect()->route('stripe.payment', ['id' => $order->id, 'total' => $order->total]);
     }
+
+
 }

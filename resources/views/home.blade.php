@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/form.css">
     <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 
   </head>
@@ -56,13 +57,14 @@
                         <li><a href="/about"><b>About Us</b></a></li>
                         <li><a href="/service"><b>Services</b></a></li>
 {{--                        <li><a href="author.html"><b>Our Team</b></a></li>--}}
-                        <li><a href="{{url('shop')}}"><b>Shop</b></a></li>
+                        <li><a href="{{url('shop')}}"><i class="fa fa-shopping-cart"></i> <b>Shop</b></a></li>
 
-                        <li><a href="create.html"><b>Contact Us</b></a></li>
+
+                        {{--                        <li><a href="create.html"><b>Contact Us</b></a></li>--}}
                         <li>      @if (Route::has('login'))
                 <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
                     @auth
-                        <a href="{{ url('/dashboard') }}" class="font-semibold text-gray-600 hover:text-gray-900 focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500"><p id="qq">Hi, {{Auth::user()->name}}</p></a>
+                        <a href="{{ url('/dd') }}" class="font-semibold text-gray-600 hover:text-gray-900 focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500"><p id="qq">Hi, {{Auth::user()->name}}</p></a>
                     @else
                         <!-- <a href="{{ route('login') }}" class="font-semibold text-gray-600 hover:text-gray-900 focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Login</a> -->
 
@@ -371,7 +373,7 @@
                     <!-- Ends In<br><strong>4D 08H 15M 42S</strong><br><em>(July 24th, 2022)</em>
                   </span> -->
                   <div class="main-button">
-                      <a href="https://calendly.com/d/cp7d-y97-42t/one-off-meeting">Schedule a meeting</a>
+                      <a href="https://calendly.com/d/ckkg-xh5-ks7/one-off-meeting">Schedule a meeting</a>
                       </div>
                 </div>
               </div>
@@ -397,7 +399,7 @@
                   </span> -->
                   <h4> Meet Manjula excels in tax expertise, ensuring clients navigate complexities seamlessly. As an auditor, he guarantees financial accuracy and compliance.</h4>
                   <div class="main-button">
-                      <a href="https://calendly.com/d/cp7d-y97-42t/one-off-meeting">Schedule a meeting</a>
+                      <a href=https://calendly.com/d/ckkg-xh5-ks7/one-off-meeting">Schedule a meeting</a>
                       </div>
                 </div>
               </div>
@@ -423,7 +425,7 @@
                   </span> -->
                   <h4>Meet Trevin's focus is meticulous risk analysis, providing clients with insights and strategies to navigate financial uncertainties with confidence.</h4>
                   <div class="main-button">
-                      <a href="https://calendly.com/d/ckhx-6mm-t47/one-off-meeting">Schedule a meeting</a>
+                      <a href="https://calendly.com/d/ckkg-xh5-ks7/one-off-meeting">Schedule a meeting</a>
                       </div>
                 </div>
               </div>
@@ -449,7 +451,7 @@
                   </span> -->
                   <h4>Meet Shehan specializes in retirement and debt planning, crafting personalized strategies for a secure financial future.</h4>
                   <div class="main-button">
-                      <a href="https://calendly.com/d/cp7d-y97-42t/one-off-meeting">Schedule a meeting</a>
+                      <a href="https://calendly.com/d/ckkg-xh5-ks7/one-off-meeting">Schedule a meeting</a>
                       </div>
                 </div>
               </div>
@@ -475,7 +477,7 @@
                   </span> -->
                   <h4>Meet Arun specializes in audits, ensuring financial integrity. His expertise as a tax advisor ensures clients optimize their financial strategies effectively.</h4>
                   <div class="main-button">
-                      <a href="https://calendly.com/d/cp7d-y97-42t/one-off-meeting">Schedule a meeting</a>
+                      <a href="https://calendly.com/d/ckkg-xh5-ks7/one-off-meeting">Schedule a meeting</a>
                       </div>
                 </div>
               </div>
@@ -501,7 +503,7 @@
                   </span> -->
                   <h4>Meet Lehan brings expertise in accounting and precise risk analysis to ensure financial success and security.</h4>
                   <div class="main-button">
-                      <a href="https://calendly.com/d/cp7d-y97-42t/one-off-meeting">Schedule a meeting</a>
+                      <a href="https://calendly.com/d/ckkg-xh5-ks7/one-off-meeting">Schedule a meeting</a>
                       </div>
                 </div>
               </div>
@@ -630,9 +632,9 @@
   	 			<h4>online shop</h4>
   	 			<ul>
   	 				<li><a href="#">watch</a></li>
-  	 				<li><a href="#">bag</a></li>
-  	 				<li><a href="#">shoes</a></li>
-  	 				<li><a href="#">dress</a></li>
+  	 				<li><a href="#">Books</a></li>
+  	 				<li><a href="#">DVDs</a></li>
+  	 				<li><a href="#">Recordings</a></li>
   	 			</ul>
   	 		</div>
   	 		<div class="footer-col">
@@ -649,18 +651,18 @@
   </footer>
 
 
-    <!-- Scripts -->
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <!-- Scripts -->
+          <!-- Bootstrap core JavaScript -->
+          <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-    <script src="assets/js/isotope.min.js"></script>
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/app1.js"></script>
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/app1.js"></script>
 
-    <script src="assets/js/tabs.js"></script>
-    <script src="assets/js/popup.js"></script>
-    <script src="assets/js/custom.js"></script>
+  <script src="assets/js/tabs.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <script src="assets/js/custom.js"></script>
   <!--Start of Tawk.to Script-->
   <script type="text/javascript">
       var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
