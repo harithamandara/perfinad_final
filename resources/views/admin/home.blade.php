@@ -5,6 +5,7 @@
             <div class="col-md-3">
                 <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
                     <div class="card-header" style="color: black">Users <a href="your-cart-link-here" style="color: black;">
+{{--                            new icon --}}
                             <i class="fa fa-users"></i>
                         </a></div>
                     <div class="card-body">
