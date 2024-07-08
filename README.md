@@ -1,8 +1,8 @@
-
+## About PERFINAD
 PERFINAD is a sophisticated CRM platform specifically designed for the financial advisory sector. Built using the Laravel framework, PERFINAD serves as an all-encompassing solution that bridges the gap between financial advisors and their clients. In addition to facilitating advisory services, it features a dedicated marketplace for books and an intuitive admin dashboard for effective platform management.
 
 ## Screenshots
-## About PERFINAD
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="home.png" alt="Laravel Logo"></a></p>
 <p>Home Page </p>
 
