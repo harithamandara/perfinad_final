@@ -1,15 +1,31 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://drive.google.com/file/d/1maaSQgm8Gv7spIKGC3UtYnDUJ9YsthEr/view?usp=sharing" width="400" alt="Laravel Logo"></a></p>
-
-<p align="center">
-<a href="https://github.com/yourusername/perfinad/actions"><img src="https://github.com/yourusername/perfinad/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/yourusername/perfinad"><img src="https://img.shields.io/packagist/dt/yourusername/perfinad" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/yourusername/perfinad"><img src="https://img.shields.io/packagist/v/yourusername/perfinad" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/yourusername/perfinad"><img src="https://img.shields.io/packagist/l/yourusername/perfinad" alt="License"></a>
-</p>
-
-## About PERFINAD
 
 PERFINAD is a sophisticated CRM platform specifically designed for the financial advisory sector. Built using the Laravel framework, PERFINAD serves as an all-encompassing solution that bridges the gap between financial advisors and their clients. In addition to facilitating advisory services, it features a dedicated marketplace for books and an intuitive admin dashboard for effective platform management.
+
+## Screenshots
+## About PERFINAD
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="home.png" alt="Laravel Logo"></a></p>
+<p>Home Page </p>
+
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="about.png" alt="Laravel Logo"></a></p>
+<p>About Us Page </p>
+
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="services.png" alt="Laravel Logo"></a></p>
+<p>Services Page </p>
+
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="services2.png" alt="Laravel Logo"></a></p>
+<p>Services Page </p>
+
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="shop2.png" alt="Laravel Logo"></a></p>
+<p>Shop Page </p>
+
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="shop2.png" alt="Laravel Logo"></a></p>
+<p>Shop Page </p>
+
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="cart.png" alt="Laravel Logo"></a></p>
+<p>Cart  </p>
+
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="admin-dashboard.png" alt="Laravel Logo"></a></p>
+<p>Addmin Dashboard  </p>
 
 ## Features
 
@@ -37,3 +53,8 @@ PERFINAD is a sophisticated CRM platform specifically designed for the financial
 1. Clone the repository:
    ```sh
    git clone https://github.com/yourusername/perfinad.git
+2.Install dependencies:
+ composer install && npm install <br>
+3. Configure environment variables: Copy .env.example to .env and update with your configuration. <br>
+4.Run migrations: php artisan migrate<br>
+5.Start the development server: php artisan serve<br>
